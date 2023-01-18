@@ -16,7 +16,7 @@ comments = {
     flexibility in familiar classroom situations, but requires support in unfamiliar situations. NAME can 
     improve POSSESIVE_DETERMINER knowledge and understanding by asking for help more often, independently attempting difficult 
     coding projects and seeking ways to add complexity to POSSESIVE_DETERMINER projects. Designing solutions is incredibly 
-    challenging and rewarding.  Designing solutions is incredibly challenging and rewarding. NAME should continue to push THIRD_PERSON_PLURAL_GENDER 
+    challenging and rewarding.  Designing solutions is incredibly challenging and rewarding. NAME should continue to push REFLEXIVE_PRONOUN to 
     to computationally solve problems by independently attempting to code, solve problem-sets, and think computationally.
 '''
 
