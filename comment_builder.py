@@ -9,11 +9,14 @@
 # POSSESIVE_PRONOUN: him, her, depending on the student, plural 
 # POSSESIVE_DETERMINER: her, his, or their, depending on the student, plural
 # CLASSROOM_BEHAVIOR: the student's behavior in class
+# REFLEXIVE_PRONOUN: himself, herself, themselves, depending on the student
 
 
 import templates
 import os
 os.system("clear")
+
+# TODO: slurp / sanitize this from spreadsheet or plaintext file
 
 name = "Ruiqi"
 third_person_singular_pronoun = "he"
@@ -24,17 +27,7 @@ student_voice = "I want to learn how to code"
 possessive_pronoun = "him"
 possesive_determiner = "his"
 classroom_behavior = "focused, attentive, and actively engaged in his learning"
-
-
-
-
-
-
-
-
-gender_third_person = "he"
-third_person_plural_gender = "himself"
-
+reflexive_pronoun = "himself"
 
 
 
@@ -47,7 +40,7 @@ templates.comments[9] = templates.comments[9].replace("STUDENT_VOICE", student_v
 templates.comments[9] = templates.comments[9].replace("POSSESIVE_PRONOUN", possessive_pronoun)
 templates.comments[9] = templates.comments[9].replace("POSSESIVE_DETERMINER", possesive_determiner)
 templates.comments[9] = templates.comments[9].replace("CLASSROOM_BEHAVIOR",classroom_behavior)
-
+templates.comments[9] = templates.comments[9].replace("REFLEXIVE_PRONOUN", reflexive_pronoun)
 
 
 new_comment = templates.comments[9]
