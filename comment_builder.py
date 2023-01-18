@@ -24,17 +24,17 @@ import templates
 import os
 os.system("clear")
 
-name = "John"
-cap_gender = "His"
+name = "Ruiqi"
+cap_gender = "Him"
 third_person_singular_pronoun = "he"
-possessive_pronoun = "his"
-project_description = "a game"
-project_noun = "game"
-programming_skill = "fairly well"
+possessive_pronoun = "him"
+project_description = "NPC reccomendation based on user's preferences"
+project_noun = "npc's" # plural
+programming_skill = "to an acceptable level for a beginning programmer"
 student_voice = "I want to learn how to code"
-cap_gender_third_person = "His"
-gender_third_person = "his"
-classroom_behavior = "well-behaved"
+cap_gender_third_person = "Him"
+gender_third_person = "he"
+classroom_behavior = "focused, attentive, and actively engaged in his learning"
 third_person_plural_gender = "himself"
 
 templates.comments[9] = templates.comments[9].replace("NAME", name)
