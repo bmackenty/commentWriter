@@ -1,7 +1,7 @@
 # this program builds report card comments for students. Define the variables below, and the program will build a comment for you.
 
 # NAME: the student's first legal name
-# THIRD_PERSON_SINGULAR_PRONOUN: her, his, or their, depending on the student 
+# THIRD_PERSON_SINGULAR_PRONOUN: she, he, or their, depending on the student 
 # PROJECT_DESCRIPTION: a description of the project
 # PROJECT_NOUN: the noun that describes the project
 # PROGRAMMING_SKILL: the programming language the student is learning (fairly well, with more room for improvement, very well, masteringly)
@@ -10,6 +10,7 @@
 # POSSESIVE_DETERMINER: her, his, or their, depending on the student, plural
 # CLASSROOM_BEHAVIOR: the student's behavior in class
 # REFLEXIVE_PRONOUN: himself, herself, themselves, depending on the student
+# PROGRESS: the student's progress, as expressed in the student's own words
 
 
 import templates
@@ -28,22 +29,24 @@ possessive_pronoun = "him"
 possesive_determiner = "his"
 classroom_behavior = "focused, attentive, and actively engaged in his learning"
 reflexive_pronoun = "himself"
+progress = "has demonstrated beginning understanding of the concepts and skills inherent to computer science"
 
 
 
-templates.comments[9] = templates.comments[9].replace("NAME", name)
-templates.comments[9] = templates.comments[9].replace("THIRD_PERSON_SINGULAR_PRONOUN", third_person_singular_pronoun)
-templates.comments[9] = templates.comments[9].replace("PROJECT_DESCRIPTION", project_description)
-templates.comments[9] = templates.comments[9].replace("PROJECT_NOUN", project_noun)
-templates.comments[9] = templates.comments[9].replace("PROGRAMMING_SKILL", programming_skill)
-templates.comments[9] = templates.comments[9].replace("STUDENT_VOICE", student_voice)
-templates.comments[9] = templates.comments[9].replace("POSSESIVE_PRONOUN", possessive_pronoun)
-templates.comments[9] = templates.comments[9].replace("POSSESIVE_DETERMINER", possesive_determiner)
-templates.comments[9] = templates.comments[9].replace("CLASSROOM_BEHAVIOR",classroom_behavior)
-templates.comments[9] = templates.comments[9].replace("REFLEXIVE_PRONOUN", reflexive_pronoun)
+templates.comments[11] = templates.comments[11].replace("NAME", name)
+templates.comments[11] = templates.comments[11].replace("THIRD_PERSON_SINGULAR_PRONOUN", third_person_singular_pronoun)
+templates.comments[11] = templates.comments[11].replace("PROJECT_DESCRIPTION", project_description)
+templates.comments[11] = templates.comments[11].replace("PROJECT_NOUN", project_noun)
+templates.comments[11] = templates.comments[11].replace("PROGRAMMING_SKILL", programming_skill)
+templates.comments[11] = templates.comments[11].replace("STUDENT_VOICE", student_voice)
+templates.comments[11] = templates.comments[11].replace("POSSESIVE_PRONOUN", possessive_pronoun)
+templates.comments[11] = templates.comments[11].replace("POSSESIVE_DETERMINER", possesive_determiner)
+templates.comments[11] = templates.comments[11].replace("CLASSROOM_BEHAVIOR",classroom_behavior)
+templates.comments[11] = templates.comments[11].replace("REFLEXIVE_PRONOUN", reflexive_pronoun)
+templates.comments[11] = templates.comments[11].replace("PROGRESS", progress)
 
 
-new_comment = templates.comments[9]
+new_comment = templates.comments[11]
 
 #  now we need to make sure everything after a period is capitalized
 #  we'll do this by splitting the comment into a list of sentences, and then
